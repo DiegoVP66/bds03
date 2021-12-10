@@ -3,7 +3,6 @@ package com.devsuperior.bds03.controllers.exceptions;
 import java.io.Serializable;
 
 public class FieldMessage implements Serializable {
-
 	private static final long serialVersionUID = 1L;
 
 	private String fieldName;
@@ -25,11 +24,11 @@ public class FieldMessage implements Serializable {
 		this.fieldName = fieldName;
 	}
 
-	public String getFieldMessage() {
+	public String getMessage() {
 		return message;
 	}
 
-	public void setFieldMessage(String message) {
+	public void setMessage(String message) {
 		this.message = message;
 	}
 
